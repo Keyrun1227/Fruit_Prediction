@@ -1,0 +1,25 @@
+<html>
+    <body bgcolor=#FED8B1>
+
+        <center>
+
+        <h1> <u>Fruit DETECTION </u></h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b>Enter The Fruit Label :  <input type="text", name='a', placeholder="Fruit Label"> <br><br>
+            Enter The Fruit-Mass  :  <input type="text", name='b', placeholder=" Fruit Mass"> <br><br>
+            Enter The Fruit-Width :  <input type="text", name='c', placeholder="Fruit Width"> <br><br>
+            Enter The Fruit-Height  : <input type="text", name='d', placeholder="Fruit Height"> <br><br>
+            Enter The Fruit-Colour-Score : <input type="text", name='e', placeholder="Colour-Score"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+    </center>
+    <center>
+        <img src='static\fruits.jpg' alt="text"><br><br>
+        <b><a href='/'><b>Go Back To Home Page</b></a>
+        </center>
+
+    
+
+    </body>
+</html>
